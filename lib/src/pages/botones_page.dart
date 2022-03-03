@@ -88,9 +88,10 @@ Widget _bottomNavigationBar(BuildContext context){
 return Theme(
   data:Theme.of(context).copyWith(
     canvasColor: Color.fromRGBO( 55, 57, 84, 1.0),
-    primaryColor:Colors.pinkAccent,
+    primaryColor: Colors.pinkAccent,
     textTheme:Theme.of(context).textTheme.
     copyWith(caption:TextStyle(color:Color.fromRGBO(116, 117, 152, 1.0))),
+   unselectedWidgetColor: Color.fromRGBO(116, 117, 152, 1.0)
   ),
   child:BottomNavigationBar(
 
@@ -108,6 +109,7 @@ return Theme(
     label: '',
   ),
     ],
+    selectedItemColor: Colors.pinkAccent,
   ),
      );
 
