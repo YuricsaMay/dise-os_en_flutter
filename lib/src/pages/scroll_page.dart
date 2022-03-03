@@ -53,7 +53,7 @@ return SafeArea(
   children:<Widget> [
     SizedBox(height: 20.0),
     Text('11°', style:estiloTexto),
-    Text('Miercoles°', style:estiloTexto),
+    Text('Miercoles', style:estiloTexto),
     Expanded(child:Container()),
     Icon(Icons.keyboard_arrow_down, size: 70.0, color:Colors.white),
 ],
