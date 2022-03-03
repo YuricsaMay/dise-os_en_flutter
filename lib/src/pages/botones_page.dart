@@ -7,7 +7,7 @@ class BotonesPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
       body:Stack(
         children:<Widget>[
           _fondoApp(),
